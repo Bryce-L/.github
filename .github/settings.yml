@@ -76,19 +76,6 @@ labels:
   - name: released
     color: A9A9A9
     description: Completed work has been released
-  - name: 'Status: Backlogged'
-    color: e2ffcd
-    description: Backlogged item is a proposed question or solution, the user is requesting
-      feedback
-    aliases:
-    - idea
-    - Idea
-    - proposal
-    - Proposal
-    - discussion
-  - name: 'Status: Prioritized for work'
-    color: d0fba6
-    description: Proposal has been prioritized for development (issues only)
   - name: 'Status: Work In Progress'
     description: Issue or Pull Request work is in Progress
     color: c0e585
@@ -103,16 +90,7 @@ labels:
     description: Progress on the issue is Blocked, immediate attention is required
     aliases:
     - blocked
-  - name: 'Status: Discovery'
-    color: c1daf0
-    description: New work that is still in a discovery phase
-  - name: 'Status: PR Welcome'
-    color: 569ed7
-    description: Assigned to issues, requesting general public support
-    aliases:
-    - Patch Welcome
-    - 'Status: Ready for PR'
-  - name: 'Status: Abandoned'
+  - name: 'Abandoned'
     color: 156fad
     description: The issue or Pull Request is wontfix
     aliases:
@@ -123,12 +101,6 @@ labels:
     description: Bug or Bug fixes
     aliases:
     - bug
-  - name: 'Type: Breaking Change'
-    color: b88624
-    description: Includes breaking changes, will require MAJOR version release
-    aliases:
-    - breaking
-    - breaking-change
   - name: 'Type: Feature'
     color: e5ad07
     description: New Feature
@@ -161,27 +133,22 @@ labels:
     aliases:
     - documents
     - document
-  - name: 'Type: Maintenance'
-    color: b83302
-    description: Repository Maintenance
-    aliases:
-    - greenkeeper
-    - maintenance
   - name: 'Type: CI'
     color: b83302
     description: Changes to CI configuration files and scripts
     aliases:
     - ci
-  - name: 'Type: Question'
+  - name: 'Question'
     color: b83302
     description: Further information is requested
     aliases:
-    - question
   - name: 'Type: Dependencies'
     color: b83302
     description: Pull requests that update a dependency file
     aliases:
     - dependencies
-  - name: 'Type: High Risk'
+  - name: 'Type: UI Update'
     color: b83302
-    description: Work is high risk, pay close attention to updates and tests
+    description: Changes to the user interface
+    aliases:
+    - dependencies
