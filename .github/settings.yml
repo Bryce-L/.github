@@ -56,10 +56,10 @@ branches:
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: duplicate
-    color: cde6ff
+    color: 'cde6ff'
     description: This Issue or Pull Request already exists
   - name: good first issue
-    color: 6bb7fb
+    color: '6bb7fb'
     description: Good for newcomers
     aliases:
     - beginner-friendly
@@ -70,85 +70,85 @@ labels:
     - starter-issue
     - starter
   - name: help wanted
-    color: 2492eb
+    color: '2492eb'
     description: Extra attention is needed, this user requires assistance to complete
       the work
   - name: released
-    color: A9A9A9
+    color: 'A9A9A9'
     description: Completed work has been released
   - name: 'Status: Work In Progress'
     description: Issue or Pull Request work is in Progress
-    color: c0e585
+    color: 'c0e585'
   - name: 'Status: Review Needed'
-    color: 91be62
+    color: '91be62'
     description: Work is completed, user is requesting feedback
   - name: 'Status: Complete'
-    color: 5e8741
+    color: '5e8741'
     description: Owner has completed work and considers it ready to be merged
   - name: 'Status: Blocked'
-    color: df0b37
+    color: 'df0b37'
     description: Progress on the issue is Blocked, immediate attention is required
     aliases:
     - blocked
   - name: 'Abandoned'
-    color: 156fad
+    color: '156fad'
     description: The issue or Pull Request is wontfix
     aliases:
     - wontfix
     - invalid
   - name: 'Type: Bug'
-    color: df0b37
+    color: 'df0b37'
     description: Bug or Bug fixes
     aliases:
     - bug
   - name: 'Type: Feature'
-    color: e5ad07
+    color: 'e5ad07'
     description: New Feature
     aliases:
     - enhancement
   - name: 'Type: Design'
-    color: e5ad07
+    color: 'e5ad07'
     description: New Design
     aliases:
     - enhancement
   - name: 'Type: Content'
-    color: ffd200
+    color: 'ffd200'
     description: Adding or editing content
     aliases:
     - enhancement
   - name: 'Type: Refactoring'
-    color: ffdb67
+    color: 'ffdb67'
     description: A code change that neither fixes a bug nor adds a feature
     aliases:
     - refactor
   - name: 'Type: Testing'
-    color: fff0cd
+    color: 'fff0cd'
     description: Adding missing tests or correcting existing tests
     aliases:
     - test
     - testing
   - name: 'Type: Documentation'
-    color: f26135
+    color: 'f26135'
     description: Documentation only changes
     aliases:
     - documents
     - document
   - name: 'Type: CI'
-    color: b83302
+    color: 'b83302'
     description: Changes to CI configuration files and scripts
     aliases:
     - ci
   - name: 'Question'
-    color: b83302
+    color: 'b83302'
     description: Further information is requested
     aliases:
   - name: 'Type: Dependencies'
-    color: b83302
+    color: 'b83302'
     description: Pull requests that update a dependency file
     aliases:
     - dependencies
   - name: 'Type: UI Update'
-    color: b83302
+    color: 'b83302'
     description: Changes to the user interface
     aliases:
     - dependencies
